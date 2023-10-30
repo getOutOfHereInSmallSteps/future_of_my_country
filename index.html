@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decbase</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- OPEN SANS: 300, 400, 500, 600, 700, 800 -->
+    <!-- POPPINS: 300, 400, 500, 600, 700, 800 -->
+    <!-- RALEWAY:  300, 400, 500, 600, 700-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./scripts/script.js"></script>
+  </head>
+  <body>
+    <div class="loader">
+      <p class="loader-text">Loading...</p>
+      <div class="loader__container">
+        <div class="square square--1"></div>
+        <div class="square square--2"></div>
+        <div class="square square--3"></div>
+        <div class="square square--4"></div>
+        <div class="square square--5"></div>
+      </div>
+    </div>
+
+    <div class="content hidden">
+      <header class="header">
+        <div class="main-nav__container">
+          <nav class="main-nav">
+            <div class="main-nav__logo">
+              <img
+                src="./imgs/logo.png"
+                alt="Decbase Logo"
+                width="47px"
+                height="47px"
+              />
+            </div>
+            <div class="main-nav__links">
+              <a href="#section--hero" class="link">Головна</a>
+              <a href="#section--about" class="link">Технології</a>
+              <a href="#section--projects" class="link">Статистика</a>
+              <a href="#section--review" class="link">Цитати</a>
+              <a href="#section--blog" class="link">Статті</a>
+              <a href="#section--services" class="link">Висновки</a>
+              <a href="#section--sign-up" class="link link--sign-up"
+                >Підпишіться</a
+              >
+            </div>
+            <div class="menu-burger">
+              <img src="./svg/burger.svg" aria-hidden="true" alt="" />
+            </div>
+            <div class="main-nav__progress-bar hidden"></div>
+          </nav>
+        </div>
+
+        <section class="hero container" id="section--hero">
+          <div class="hero__desc">
+            <h1 class="hero__desc-heading">Майбутнє моєї країни.</h1>
+            <p class="hero__desc-paragraph">
+              Майбутнє кожної країни - це результат її історії, культури,
+              економіки та головне — її громадян. У світлі глобалізації та
+              швидких технологічних змін, ми, громадяни, відповідаємо за
+              формування світлого майбутнього для нашої держави.
+            </p>
+            <!-- <a href="#" class="hero__desc-btn">Contact</a> -->
+          </div>
+          <div class="hero__img-container">
+            <img
+              src="./imgs/main.jpg"
+              alt="Bussiness Room Interior"
+              class="hero__img-container-image"
+            />
+          </div>
+        </section>
+        <img
+          src="./svg/abstract-decore-1.svg"
+          class="decore header-decore"
+          aria-hidden="true"
+          alt=""
+        />
+      </header>
+
+      <section class="about container" id="section--about">
+        <article class="mextreo">
+          <div class="mextreo__img-container">
+            <img
+              src="./imgs/acbd1.jpg"
+              alt="Living Room Interior"
+              class="mextreo__img-container-image"
+            />
+          </div>
+          <div class="mextreo__desc">
+            <h3 class="mextreo__desc-subheading">About us</h3>
+            <h2 class="mextreo__desc-heading">Інновації та технології</h2>
+            <p class="mextreo__desc-paragraph">
+              Наша країна активно розвивається у сфері новітніх технологій.
+              Діджиталізація, штучний інтелект, зелені технології - усе це не
+              тільки тренди сучасності, але і ключ до стабільного майбутнього.
+            </p>
+            <a href="./tech.html" class="mextreo__desc-btn">Дізнатись більше</a>
+          </div>
+        </article>
+        <article class="mextreo">
+          <div class="mextreo__desc">
+            <h3 class="mextreo__desc-subheading">Економіка</h3>
+            <h2 class="mextreo__desc-heading">
+              Економічне зростання: Плани та прогнози
+            </h2>
+            <p class="mextreo__desc-paragraph">
+              Економічне зростання є ключовим індикатором добробуту кожної
+              країни. Для забезпечення стабільного та довготривалого розвитку
+              потрібно мати чіткий план дій та враховувати всі зовнішні та
+              внутрішні фактори.
+            </p>
+            <a href="./economy.html" class="mextreo__desc-btn"
+              >Дізнатись більше</a
+            >
+          </div>
+          <div class="mextreo__img-container">
+            <img
+              src="./imgs/eabc.jpg"
+              alt="Living Room Interior"
+              class="mextreo__img-container-image"
+            />
+          </div>
+        </article>
+      </section>
+
+      <section class="works" id="section--projects">
+        <div class="container">
+          <h2 class="works-heading">
+            Україна у цифрах: позитивні тенденції розвитку для майбутнього
+          </h2>
+          <div class="completed-works">
+            <div class="completed-works__card">
+              <h2 class="completed-works__card-heading">3,2%</h2>
+              <p class="completed-works__card-paragraph">
+                Зростання ВВП у 2019 році
+              </p>
+            </div>
+            <div class="completed-works__card">
+              <h2 class="completed-works__card-heading">50 млн тонн</h2>
+              <p class="completed-works__card-paragraph">
+                Експорт зернових у 2019-2020 рр.
+              </p>
+            </div>
+            <div class="completed-works__card">
+              <h2 class="completed-works__card-heading">4%</h2>
+              <p class="completed-works__card-paragraph">
+                Вклад IT-сектора у ВВП у 2020 році
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials container" id="section--review">
+        <h3 class="testimonials-subheading">Цитати відомих людей</h3>
+        <h2 class="testimonials-heading">
+          Цитати відомих людей про майбутнє України
+        </h2>
+
+        <div class="carousel">
+          <div class="carousel__card-container">
+            <div class="carousel__card">
+              <h2 class="carousel__card-heading">В. Липинський</h2>
+              <p class="carousel__card-paragraph">
+                Ніхто нам не збудує держави, коли ми її самі не збудуємо, і
+                ніхто з нас не зробить нації, коли ми самі нацією не схочемо
+                бути.
+              </p>
+              <img
+                src="./imgs/client-1.png"
+                alt="Louis Saville"
+                width="130px"
+                height="130px"
+                class="carousel__card-client-avatar"
+              />
+              <span class="carousel__card-quote">&rdquo;</span>
+            </div>
+          </div>
+
+          <div class="carousel__card-container">
+            <div class="carousel__card">
+              <h2 class="carousel__card-heading">Я. Стецько</h2>
+              <p class="carousel__card-paragraph">
+                Україна - це вічність, не тільки сьогоднішня, але передусім
+                майбутня й минула.
+              </p>
+              <img
+                src="./imgs/client-2.png"
+                alt="Rekha Varadwaz"
+                width="130px"
+                height="130px"
+                class="carousel__card-client-avatar"
+              />
+              <span class="carousel__card-quote">&rdquo;</span>
+            </div>
+          </div>
+
+          <div class="carousel__card-container">
+            <div class="carousel__card">
+              <h2 class="carousel__card-heading">С. Бандера</h2>
+              <p class="carousel__card-paragraph">
+                Самостійну державу може здобути собі український народ тільки
+                власною боротьбою і трудом.
+              </p>
+              <img
+                src="./imgs/client-3.jpeg"
+                alt="Winston Smith"
+                width="130px"
+                height="130px"
+                class="carousel__card-client-avatar"
+              />
+              <span class="carousel__card-quote">&rdquo;</span>
+            </div>
+          </div>
+          <div class="carousel__card-container">
+            <div class="carousel__card">
+              <h2 class="carousel__card-heading">Г. Сковорода</h2>
+              <p class="carousel__card-paragraph">
+                Ми переможемо лише тоді, коли усвідомимо, що за Україну треба не
+                вмирати, а вбивати.
+              </p>
+              <img
+                src="./imgs/client-4.jpeg"
+                alt="Jane Doe"
+                width="130px"
+                height="130px"
+                class="carousel__card-client-avatar"
+              />
+              <span class="carousel__card-quote">&rdquo;</span>
+            </div>
+          </div>
+          <div class="carousel__card-container">
+            <div class="carousel__card">
+              <h2 class="carousel__card-heading">В. Чорновіл</h2>
+              <p class="carousel__card-paragraph">
+                Дай Боже нам любити Україну понад усе сьогодні - маючи, щоб не
+                довелося гірко любити її, втративши. Настав час великого вибору:
+                або єдність і перемога та шлях до світла, або поразка, ганьба і
+                знову довга дорога до волі.
+              </p>
+              <img
+                src="./imgs/client-5.jpeg"
+                alt="Sarah Johnson"
+                width="130px"
+                height="130px"
+                class="carousel__card-client-avatar"
+              />
+              <span class="carousel__card-quote">&rdquo;</span>
+            </div>
+          </div>
+          <div class="carousel__card-container">
+            <div class="carousel__card">
+              <h2 class="carousel__card-heading">В. Стус</h2>
+              <p class="carousel__card-paragraph">
+                Наша історія — це все і завжди спочатку, якась постійна
+                гойданина на одному й тому ж місці, мертва хвиля еволюції.
+              </p>
+              <img
+                src="./imgs/client-6.jpeg"
+                alt="Michael Brown"
+                width="130px"
+                height="130px"
+                class="carousel__card-client-avatar"
+              />
+              <span class="carousel__card-quote">&rdquo;</span>
+            </div>
+          </div>
+
+          <div class="carousel__btns">
+            <button class="carousel-btn carousel-btn--left">&lt;</button>
+            <button class="carousel-btn carousel-btn--right">&gt;</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="latest-news" id="section--blog">
+        <div class="container">
+          <h3 class="latest-news-subheading">Читайте також</h3>
+          <h2 class="latest-news-heading">Наші статті</h2>
+
+          <div class="blogs hidden">
+            <div class="blogs__blog">
+              <div class="blogs__blog__img-container">
+                <img
+                  src="./imgs/abbcd1.jpg"
+                  alt="Shelf Interior"
+                  class="blogs__blog__img-container-image"
+                />
+              </div>
+              <h2 class="blogs__blog-heading">Освітні тренди</h2>
+              <p class="blogs__blog-paragraph">
+                Освітня сфера України активно розвивається, ідучи в ногу з
+                глобальними трендами.
+              </p>
+              <a href="./education.html" class="blogs__blog-btn"
+                >дізнатись більше...</a
+              >
+            </div>
+
+            <div class="blogs__blog">
+              <div class="blogs__blog__img-container">
+                <img
+                  src="./imgs/eeeeeee.jpg"
+                  alt="Bedroom Interior"
+                  class="blogs__blog__img-container-image"
+                />
+              </div>
+              <h2 class="blogs__blog-heading">
+                Розвиток громадянського суспільства
+              </h2>
+              <p class="blogs__blog-paragraph">
+                Громадянське суспільство є фундаментом демократичної держави, де
+                активна участь громадян стимулює прозорість, відкритість та
+                відповідальність управління.
+              </p>
+              <a href="./society.html" class="blogs__blog-btn"
+                >дізнатись більше...</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="section--services">
+        <div class="container">
+          <h3 class="services-subheading">Заключення</h3>
+          <h2 class="services-heading">Головні висновки</h2>
+          <nav class="services__nav">
+            <a
+              href="#"
+              class="services__nav-btn services__nav-btn--selected"
+              data-type="topSelection"
+              >Технології</a
+            >
+            <a href="#" class="services__nav-btn" data-type="design">Освіта</a>
+            <a href="#" class="services__nav-btn" data-type="architecture"
+              >Економіка</a
+            >
+            <a href="#" class="services__nav-btn" data-type="planning"
+              >Суспільство</a
+            >
+          </nav>
+        </div>
+
+        <div class="cards container">
+          <div class="card card--1">
+            <img src="./svg/design.svg" aria-hidden="true" alt="" />
+            <div class="card--1__desc">
+              <h2 class="card--1__desc-heading">Elegant Design</h2>
+              <p class="card--1__desc-paragraph">
+                Our designers specialize in creating elegant and sophisticated
+                interiors that are tailored to your unique style and needs.
+              </p>
+            </div>
+          </div>
+          <div class="card card--2">
+            <img src="./svg/architecture.svg" aria-hidden="true" alt="" />
+            <div class="card--2__desc">
+              <h2 class="card--2__desc-heading">Contemporary Architecture</h2>
+              <p class="card--2__desc-paragraph">
+                Our architects specialize in designing contemporary buildings
+                that blend form and function to create stunning and unique
+                structures.
+              </p>
+            </div>
+          </div>
+
+          <div class="card card--1">
+            <img src="./svg/planning.svg" aria-hidden="true" alt="" />
+            <div class="card--1__desc">
+              <h2 class="card--1__desc-heading">Urban Planning</h2>
+              <p class="card--1__desc-paragraph">
+                Our team of urban planners understands the unique challenges and
+                opportunities presented by cities.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./svg/abstract-decore-2.svg"
+          aria-hidden="true"
+          class="decore services-decore"
+          alt=""
+        />
+      </section>
+
+      <section class="sign-up" id="section--sign-up">
+        <form class="form">
+          <h2 class="form-heading">Долучайтесь до нас!</h2>
+          <hr class="form-separator" />
+          <h3 class="form-subheading">
+            Ми віримо, що разом ми можемо побудувати майбутнє, яке принесе
+            процвітання не тільки нашій країні, але й поколінням, які йдуть за
+            нами. Долучайтеся до нас, адже майбутнє починається сьогодні!
+          </h3>
+          <div class="form__grid">
+            <div class="form__input-container">
+              <input
+                type="text"
+                class="form-input form-input--first-name"
+                placeholder="Ваше імʼя"
+              />
+              <p class="form-input-error hidden">Невалідне значення імені</p>
+            </div>
+            <div class="form__input-container">
+              <input
+                type="text"
+                class="form-input form-input--last-name"
+                placeholder="Ваше прізвище"
+              />
+              <p class="form-input-error hidden">Невалідне значення прізвища</p>
+            </div>
+            <div class="form__input-container form__input-container--email">
+              <input
+                type="email"
+                class="form-input form-input--email"
+                placeholder="Ваша електронна пошта"
+              />
+              <p class="form-input-error hidden">
+                Невалідне значення електронної адреси
+              </p>
+            </div>
+          </div>
+          <button class="form-submit-btn" type="submit">Підписатись</button>
+        </form>
+      </section>
+
+      <!-- </body> -->
+      <!-- </html> -->
+    </div>
+  </body>
+</html>
